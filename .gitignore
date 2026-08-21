@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+# Common names: .venv, venv, env, .env, .venv/
+venv/
+.venv/
+env/
+venv.bak/
+
+# Pyenv virtualenv
+/.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Editor backups
+.vscode/
+.idea/
+*.swp
