@@ -2,7 +2,7 @@ import pytest
 import math
 import source.shapes as shapes
 
-class TestCircle:
+class TestCircle: # for class based tests
 
     def setup_method(self, method):
         print(f"Setting up {method}")
@@ -19,3 +19,6 @@ class TestCircle:
         result = self.circle.perimeter()
         expected = 2 * math.pi * self.circle.radius
         assert result == expected
+
+    def tes_not_same_area_rectangle(self, my_rectangle):
+        assert self.circle.area() != my_rectangle.area()
